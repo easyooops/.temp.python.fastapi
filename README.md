@@ -2,17 +2,14 @@
 Python Basic Framework with FastAPI
 
 ## Prerequisite
-***
 - Python 3.7
 
 ## Feature
-***
 - dotenv(.env)를 이용한 config 구성
 - SQLAlchemy ORM 구성
 - SQLite를 기본 DB로 구성(./test.db)
 
 ## Porject Structure
-***
 ```
 └─app
     ├─api
@@ -32,7 +29,6 @@ Python Basic Framework with FastAPI
 - **app.schemas** : DTO
 
 ## Run
-***
 ```
 pip install pipenv
 pipenv install
@@ -40,5 +36,4 @@ pipenv run uvicorn app.main:app --reload
 ```
 
 ## Swagger UI
-***
 - http://127.0.0.1:8000/docs
