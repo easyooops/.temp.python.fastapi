@@ -30,6 +30,8 @@ Python Basic Framework with FastAPI
 
 ## Run
 ```
+git clone https://github.com/easyooops/.temp.python.fastapi.git
+cd .temp.python.fastapi
 pip install pipenv
 pipenv install
 pipenv run uvicorn app.main:app --reload
